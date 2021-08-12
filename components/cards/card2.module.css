@@ -1,0 +1,102 @@
+.cards{
+    padding-top: 50px;
+}
+
+.cards__{
+    width: 1100px ;
+    height: 500px;
+    
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.card{
+    box-shadow: 1px 1px 15px 3px rgb(164, 164, 164);
+    border-radius: 10px ;
+    width: 300px;
+ height: 400px ;
+}
+
+.see{
+    border-bottom: 1px solid red ;
+    height: 20px;
+}
+
+.see:hover{
+    color: red;
+}
+
+.img1{
+    background: url('../../public/img/phantom.jpeg') ;
+    background-size: 100% ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 158px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.img2{
+    background: url('../../public/img/bentaiga.jpeg') ;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    height: 158px;
+}
+.img3{
+    background: url('../../public/img/cullinan.jpeg') ;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 158px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.card__text{
+    width: 260px;
+    margin: auto;
+}
+.card__text h2{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.card__text h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.card__text button{
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 14px;
+}
+
+.card__text button:hover{
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,52 @@
+.image {
+  background: url("../public/img/phantom-removed.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 400px;
+}
+.img {
+  width: 650px;
+  height: 450px;
+  margin-left: 100px;
+}
+
+.bmw {
+  margin-top: 40px;
+  display: flex;
+}
+
+.text {
+  margin: 0px 100px 0px 50px;
+  padding-top: 50px;
+}
+.text h1 {
+  padding-bottom: 5px;
+}
+.text h4 {
+  padding-bottom: 20px;
+}
+.text p {
+  padding-bottom: 20px;
+  color: gray;
+}
+.text button {
+  background-color: transparent;
+  outline: none;
+  padding: 10px 40px;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.text button:hover {
+  background-color: red;
+  color: white;
+}
+.text h3 {
+  font-weight: 500;
+}
+
+.text div {
+  display: flex;
+  align-items: center;
+}

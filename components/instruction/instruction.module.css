@@ -1,0 +1,37 @@
+.text {
+  text-align: center;
+  padding-top: 100px;
+}
+.text h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text p {
+  width: 900px;
+  margin: auto;
+  padding-top: 30px;
+  color: gray;
+}
+.text h2 {
+  padding-top: 8px;
+  font-weight: 500;
+  width: 330px;
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid red;
+}
+
+.text button {
+  padding: 13px 36px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.text button:hover {
+  color: white;
+  background: red;
+}

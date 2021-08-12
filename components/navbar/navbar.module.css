@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo span {
+  color: red;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.ullist {
+  display: flex;
+}
+.list {
+  margin: 0px 28px;
+  align-items: center;
+  display: flex;
+}
+
+.input {
+  padding: 15px 20px;
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid red;
+  outline: none;
+}
+
+.empty {
+  width: 300px;
+  height: 500px;
+  overflow: scroll;
+  background-color: rgba(99, 99, 99, 0.831);
+  position: absolute;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.cars__for__search {
+  width: 250px;
+  height: 100px;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: white;
+  padding-top: 35px;
+}
+
+.name__of__car {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+}
+
+.name__of__car:hover {
+  cursor: pointer;
+}
